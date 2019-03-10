@@ -1,7 +1,7 @@
 package algorithm;
 
 /**
- * 二分查找:适用于列表有序时,二分查找最大时间复杂度为：O(logn)
+ * 二分查找:适用于在有序的列表中查找指定元素,二分查找最大时间复杂度为：O(logn)
  * 
  * @author wangcaiyan[wang_cy1@suixingpay.com]
  *
