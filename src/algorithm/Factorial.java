@@ -30,5 +30,20 @@ public class Factorial {
 			return 1;
 		}
 	}
+	
+	/**
+	 * 递归计算阶乘
+	 * 
+	 * @param num
+	 * @param result
+	 * @return
+	 */
+	public static int factorial2(int num) {
+		if (1 == num) {
+			return 1;
+		} else {
+			return num * factorial(num - 1);
+		}
+	}
 
 }
