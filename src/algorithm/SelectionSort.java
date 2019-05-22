@@ -31,7 +31,7 @@ public class SelectionSort {
 			int i;
 			for (i = j; i < array.length; i++) {
 				if (max < array[i]) {
-					max = array[i];
+//					max = array[i];
 					maxIndex = i;
 				}
 			}
