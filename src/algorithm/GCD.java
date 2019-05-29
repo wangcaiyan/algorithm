@@ -9,19 +9,22 @@ package algorithm;
 public class GCD {
 
 	public static void main(String[] args) {
-		int i = 33;
+		int i = 5;
 		int j = 33;
 		int gcd = gcd(i, j);
-		System.out.println(i + "和" + j +"的最大公约数是" + gcd);
+		System.out.println(i + "和" + j + "的最大公约数是" + gcd);
+
 	}
 
 	/**
 	 * 大数除以小数
+	 * 
 	 * @param i
 	 * @param j
 	 * @return
 	 */
 	private static int gcd(int i, int j) {
+		// 基线条件：两数可以整除，则那个小值就是最大公约数
 		if (i % j == 0) {
 			return j;
 		} else {
